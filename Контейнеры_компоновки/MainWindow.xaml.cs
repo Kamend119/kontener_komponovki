@@ -24,5 +24,6 @@ namespace Контейнеры_компоновки
         {
             InitializeComponent();
         }
+
     }
 }
