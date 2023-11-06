@@ -6,7 +6,33 @@
         xmlns:local="clr-namespace:Контейнеры_компоновки"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
-        
+        <Label Content="Последние документы" FontSize ="15" Margin="10,10,626,390"/>
+
+        <Label Content="1.txt" FontSize ="15" Margin="10,57,670,350"/>
+        <Label Content="2.txt" FontSize ="15" Margin="10,89,670,318"/>
+        <Label Content="3.txt" FontSize ="15" Margin="10,121,670,286"/>
+        <Label Content="4.txt" FontSize ="15" Margin="10,153,670,254"/>
+        <Label Content="5.txt" FontSize ="15" Margin="10,185,670,222"/>
+        <Label Content="6.txt" FontSize ="15" Margin="10,217,670,190"/>
+
+        <Label Content="1.txt" FontSize ="15" Margin="194,49,556,358" FontWeight="Bold"/>
+        <Label Content="2.txt" FontSize ="15" Margin="249,49,501,358" FontWeight="Bold"/>
+        <Label Content="3.txt" FontSize ="15" Margin="304,49,446,358" FontWeight="Bold"/>
+
+
+        <Button Content="Открыть" HorizontalAlignment="Left" Margin="194,16,0,0" VerticalAlignment="Top"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="254,16,0,0" VerticalAlignment="Top"/>
+        <Button Content="Закрыть" HorizontalAlignment="Left" Margin="324,16,0,0" VerticalAlignment="Top"/>
+        <Button Content="Обработать" HorizontalAlignment="Left" Margin="384,16,0,0" VerticalAlignment="Top"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Margin="464,16,0,0" VerticalAlignment="Top"/>
+
+        <Button Content="A" Background="Yellow" Margin ="194,95,546,259" Height="80" Width="60"/>
+        <Button Content="B" Background="Red" Margin="269,95,471,259" Height="80" Width="60"/>
+        <Button Content="C" Background="Green" Margin="340,95,400,259" Height="80" Width="60"/>
+        <Button Content="D" Background="Blue" Margin="419,95,321,259" Height="80" Width="60"/>
+        <Button Content="E" Background="Gray" Margin="494,95,246,259" Height="80" Width="60"/>
+        <Button Content="F" Background="#FFEFEFC7" Margin="569,95,171,259" Height="80" Width="60"/>
     </Grid>
 </Window>
